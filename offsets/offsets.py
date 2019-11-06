@@ -1,7 +1,7 @@
 import psycopg2 as pg
 import csv
 
-conn = pg.connect(database="global_soils", user="soil_admin", password="4MnFcgLYLH", host="teralytic-dev-cluster2.cluster-ctbamupmugqj.us-east-1.rds.amazonaws.com", port="5432")
+conn = pg.connect(database="global_soils", user="ENTER_USER", password="ENTER_PASSWORD", host="ENTER_HOST", port="5432")
 
 print("Global Soils DB Connected")
 

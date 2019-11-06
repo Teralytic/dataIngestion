@@ -27,7 +27,7 @@ applicationID = 34
 
 class Loraserver:
     def __init__(self):
-        data = {'password': 't3ralyt1c', 'username': 'admin'}
+        data = {'password': 'ENTER_PASSWORD', 'username': 'ENTER_USER'}
         self.token = self.post_hdrs('/api/internal/login', data, headers={'Content-Type': 'application/json'})
         logger.debug('token = {}'.format(self.token))
 
